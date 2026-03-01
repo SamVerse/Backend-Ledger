@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const userModel = require("../model/user.model");
 const { sendRegistrationEmail } = require("../services/email.service");
-const tokenBlacklistModel = require("../model/blacklist.model");
+const tokenBlacklistModel = require("../model/blackList.model");
 
 /* 
 * user registration controller

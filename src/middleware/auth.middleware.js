@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const userModel = require("../model/user.model");
-const tokenBlacklistModel = require("../model/blacklist.model");
+const tokenBlacklistModel = require("../model/blackList.model");
 
 async function authMiddleware(req, res, next) {
   // First, try token from cookies; otherwise check the Authorization header for a Bearer token.
